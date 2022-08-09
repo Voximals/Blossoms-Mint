@@ -768,7 +768,7 @@ const buf2hex = x => "0x" + x.toString("hex")
             chainData = evmChains.getChain(chainId);
             const accounts = await web3.eth.getAccounts();
             console.log("Got accounts", accounts);
-            if (chainId != 4) {
+            if (chainId != 1) {
                 document.getElementById("btn-connect").innerHTML = "Switch to Eth Mainnet"
                 mintstatus = false
             } else {
