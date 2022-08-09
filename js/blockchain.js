@@ -897,7 +897,7 @@ const buf2hex = x => "0x" + x.toString("hex")
                 };
                 try {
 
-                    let name = await contract.(1, overrides)
+                    let name = await contract.publicMint(1, overrides)
                     name.wait()
                     document.getElementById("btn-connect").innerHTML = "Success"
 
