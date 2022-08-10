@@ -746,7 +746,7 @@ const buf2hex = x => "0x" + x.toString("hex")
                 walletconnect: {
                     package: WalletConnectProvider,
                     options: {
-                        infuraId: "0x5Ac778D48be0c0FE99ba38279c0BB1f63C5D7B9b",
+                        infuraId: "aa65dbb313104a608ab5b55aba0e306b",
                     }
                 }
             };
